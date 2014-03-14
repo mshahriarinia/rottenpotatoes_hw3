@@ -7,9 +7,9 @@ gem 'rails', '3.2.14'
 
 # for Heroku deployment - as described in Ap. A of ELLS book
 group :development, :test do
-#  gem 'sqlite3'
-  gem 'sqlite3', '1.3.5'
-    gem 'debugger'
+  gem 'sqlite3'
+  #gem 'sqlite3', '1.3.5'
+  gem 'debugger'
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
@@ -21,7 +21,7 @@ group :test do
   gem 'cucumber-rails-training-wheels'
 end
 group :production do
-#  gem 'pg'
+  gem 'pg'
 end
 
 # Gems used only for assets and not required
