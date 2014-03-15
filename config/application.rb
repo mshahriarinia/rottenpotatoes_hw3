@@ -15,7 +15,7 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
-config.assets.initialize_on_precompile = false
+#config.assets.initialize_on_precompile = false
 
 module Rottenpotatoes
   class Application < Rails::Application
